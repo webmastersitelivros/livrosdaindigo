@@ -1,0 +1,71 @@
+/* Navigation Style */
+.el_navbar {
+	background: #fff;
+	border-bottom: 5px solid #6FB7E9;
+	color: #6FB7E9;
+}
+
+.el_mainmenu > li > a, .el_srctrigger, .mobilemenu, .post-title a:hover, .crv-content a:hover, .sidebarwidget li a:hover  {
+	color: #6FB7E9!important;
+}
+.el_mainmenu > li:hover > a, .el_mainmenu li.current-menu-item > a, .tagcloud a:hover,  .social a:hover{
+	background:#6FB7E9;
+	color:#fff!important;
+}
+.el_subheader:before, 
+.featwrap:before,
+.el_pagination li a:hover, .el_pagination li a.currents {
+	background-color: #6FB7E9!important;
+}
+
+.sidebarwidget .etabs li a.active {
+	color: #6FB7E9;
+}
+
+*::selection {
+	background: #6FB7E9;
+	color: #fff;
+}
+
+.post-like a:hover,
+.post-like a:hover > .disliked,
+.post-like a:active > .disliked,
+.post-like a:focus > .disliked,
+.post-like a:hover > .alreadyliked,
+.post-like a:active > .alreadyliked,
+.post-like a:focus > .alreadyliked,
+.post-like a:hover > .liked,
+.post-like a:active > .liked,
+.post-like a:focus > .liked,
+.post-footer a:hover,
+.sidebarwidget .etabs li.active a,
+.sidebarwidget .etabs li.active a:hover {
+ /* default on hover */
+	color: #6FB7E9;
+}
+
+.post-author a:hover {
+	color:#6FB7E9;
+	border-bottom: 1px solid #6FB7E9;
+}
+
+.post a.readmore {
+	color: #000;
+}
+
+.el_share:hover, .el_likes:hover, .post a.readmore:hover, .el_navbar a:hover {
+	color: #6FB7E9;
+}
+
+.button, input[type="submit"], input#submit, .footer-widget-title:after {
+	background: #6FB7E9;
+}
+
+
+.really_simple_twitter_widget li:before {
+	display: none;
+}
+
+.le_social ul li a {
+    /* padding:7px 10px; */;
+}
